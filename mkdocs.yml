@@ -52,6 +52,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - about.md
   - examples.md
   - publications.md
   - contribute.md

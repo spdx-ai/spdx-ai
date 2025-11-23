@@ -13,6 +13,30 @@ Welcome to the **SPDX AI Working Group** website.
 This technical working group focuses on developing and maintaining the AI and
 Dataset profiles of the System Package Data Exchange™ (SPDX®) specification.
 
+## SPDX AI BOM example
+
+Here's a minimal example of an AIPackage in SPDX 3 JSON format:
+
+```json
+{
+  "@context": "https://spdx.org/rdf/3.0/spdx-context.jsonld",
+  "@graph": [
+    {
+      "type": "AIPackage",
+      "spdxId": "https://example.org/model-abc123",
+      "name": "sentiment-classifier-v1",
+      "creationInfo": {
+        "type": "CreationInfo",
+        "created": "2025-01-15T10:00:00Z",
+        "createdBy": ["https://example.org/agent/ai-team"]
+      },
+      "autonomyType": "assisted",
+      "aiDomain": ["nlp"]
+    }
+  ]
+}
+```
+
 ## About
 
 The SPDX AI Working Group is dedicated to creating standards for documenting

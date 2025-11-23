@@ -13,15 +13,15 @@ theme:
   palette:
     # Palette toggle for light mode
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: deep orange
+      accent: orange
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     # Palette toggle for dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: deep orange
+      accent: orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -58,9 +58,9 @@ nav:
 
 plugins:
   - git-revision-date-localized # Use mkdocs-git-revision-date-localized-plugin
-  # - optimize  # Temporarily disabled due to missing dependencies in build environment
+  - optimize
   - search
-  # - social  # Temporarily disabled due to network restrictions in build environment
+  - social
   - tags
 
 extra:

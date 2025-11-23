@@ -58,9 +58,9 @@ nav:
 
 plugins:
   - git-revision-date-localized # Use mkdocs-git-revision-date-localized-plugin
-  - optimize
+  # - optimize  # Temporarily disabled due to missing dependencies in build environment
   - search
-  - social
+  # - social  # Temporarily disabled due to network restrictions in build environment
   - tags
 
 extra:

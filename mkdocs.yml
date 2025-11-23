@@ -5,6 +5,7 @@ copyright: Copyright &copy; 2025, The Linux Foundation and its Contributors.
 site_url: https://spdx-ai.github.io/spdx-ai/
 repo_url: https://github.com/spdx-ai/spdx-ai
 repo_name: spdx-ai/spdx-ai
+edit_uri: edit/main/docs/
 
 use_directory_urls: true
 
@@ -26,6 +27,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - content.action.edit
     - content.code.copy
     - navigation.expand
     - navigation.instant
@@ -58,7 +60,8 @@ nav:
   - contribute.md
 
 plugins:
-  - git-revision-date-localized # Use mkdocs-git-revision-date-localized-plugin
+  - git-revision-date-localized: # Use mkdocs-git-revision-date-localized-plugin
+      enable_creation_date: true
   - optimize
   - search
   - social

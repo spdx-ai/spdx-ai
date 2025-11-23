@@ -29,7 +29,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          apt-get install pngquant
+          sudo apt-get install -y pngquant
           pip install -r requirements.txt
 
       - name: Build MkDocs site

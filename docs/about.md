@@ -49,5 +49,7 @@ including but not limited to the usages in AI/ML systems:
 illustration by [Anton Grabolle](https://www.instagram.com/miss.tonton/) /
 <https://betterimagesofai.org> / [Licenced by CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
+[Back to Home](./index.md){ .md-button }
+
 [ai-profile]: https://spdx.github.io/spdx-spec/latest/model/AI/AI/
 [dataset-profile]: https://spdx.github.io/spdx-spec/latest/model/Dataset/Dataset/

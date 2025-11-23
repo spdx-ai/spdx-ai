@@ -73,7 +73,6 @@ Use the tabs to switch between representations.
     @prefix spdx: <https://spdx.org/rdf/3.0.1/terms/Core/> .
     @prefix spdx-sw: <https://spdx.org/rdf/3.0.1/terms/Software/> .
     @prefix spdx-ai: <https://spdx.org/rdf/3.0.1/terms/AI/> .
-    @prefix ex: <https://example.org/> .
     @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
     <https://example.org/model-abc123>

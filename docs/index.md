@@ -7,13 +7,44 @@ SPDX-License-Identifier: CC0-1.0
 # SPDX AI Working Group
 
 Welcome to the **SPDX AI Working Group** website.
-
 This technical working group focuses on developing and maintaining the
 [AI][ai-profile] and [Dataset][dataset-profile] profiles of the
 [System Package Data Exchange™ (SPDX®) specification][spdx-spec].
 
-[![SPDX 3.0 AI profile digram](./img/model-ai.png)](https://spdx.github.io/spdx-spec/v3.0/annexes/rdf-model/)
-[![SPDX 3.0 Dataset profile digram](./img/model-dataset.png)](https://spdx.github.io/spdx-spec/v3.0/annexes/rdf-model/)
+The SPDX AI Working Group is dedicated to creating standards for documenting
+artificial intelligence systems and datasets in a standardized format.
+Our work enables safety, transparency, and compliance in AI development through
+standardized Bill of Materials (BOM) practices.
+
+## Mission
+
+Our mission is to:
+
+- Develop and maintain AI and Dataset profiles for SPDX specification
+- Create comprehensive documentation and examples
+- Facilitate collaboration among industry stakeholders
+- Promote best practices for AI transparency and accountability
+
+## Key areas of work
+
+### AI profile
+
+The [AI profile][ai-profile] defines how to document AI/ML models, including:
+
+- Model architecture and parameters
+- Training data and methodologies
+- Performance metrics and evaluation
+- Dependencies and runtime requirements
+
+### Dataset profile
+
+The [Dataset profile][dataset-profile] specifies how to document datasets,
+including but not limited to the usages in AI/ML systems:
+
+- Data sources and provenance
+- Data collection and processing methods
+- Data quality and statistics
+- Licensing and usage restrictions
 
 Here's a minimal example of an SPDX 3.0 AIPackage shown in
 two formats — JSON and RDF/Turtle.
@@ -101,15 +132,6 @@ Use the tabs to switch between representations.
 SPDX AI and Dataset profiles can be used to comprehensively document AI systems
 and datasets, on top of the existing software component information that
 the core SPDX specification provides.
-
-Overview of an AI package, from the AI BOM in [AI Example 02][ai-ex-02]
-(click on the diagram to enlarge):
-
-[![AI package overview](./img/ai-example-02-overview.png)](./img/ai-example-02-overview.png)
-
-Details of some information categories that the AI BOM captures:
-
-[![AI package zoom in](./img/ai-example-02-zoomin.png)](./img/ai-example-02-zoomin.png)
 
 See more examples in the [Examples](./examples.md) section.
 

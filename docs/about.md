@@ -4,52 +4,38 @@ SPDX-FileType: DOCUMENTATION
 SPDX-License-Identifier: CC0-1.0
 ---
 
-# About
+# Profiles overview
 
-![An illustration of three „pixelated“ cupboards next to each other with open drawers, the right one is black](./img/anton-grabolle-classification-cupboard.jpg)
+## AI profile
 
-The SPDX AI Working Group is dedicated to creating standards for documenting
-artificial intelligence systems and datasets in a standardized format.
-Our work enables safety, transparency, and compliance in AI development through
-standardized Bill of Materials (BOM) practices.
+[AI profile][ai-profile]
 
-## Mission
+[![SPDX 3.0 AI profile digram](./img/model-ai.png)](https://spdx.github.io/spdx-spec/v3.0/annexes/rdf-model/)
 
-Our mission is to:
+## Dataset profile
 
-- Develop and maintain AI and Dataset profiles for SPDX specification
-- Create comprehensive documentation and examples
-- Facilitate collaboration among industry stakeholders
-- Promote best practices for AI transparency and accountability
+[Dataset profile][dataset-profile]
 
-## Key areas of work
+[![SPDX 3.0 Dataset profile digram](./img/model-dataset.png)](https://spdx.github.io/spdx-spec/v3.0/annexes/rdf-model/)
 
-### AI profile
+## SBOM example
 
-The [AI profile][ai-profile] defines how to document AI/ML models, including:
+An overview of an AI package, from the AI BOM in [AI Example 02][ai-ex-02]
+(click on the diagram to enlarge):
 
-- Model architecture and parameters
-- Training data and methodologies
-- Performance metrics and evaluation
-- Dependencies and runtime requirements
+[![AI package overview](./img/ai-example-02-overview.png)](./img/ai-example-02-overview.png)
 
-### Dataset profile
+Details of some information categories that the AI BOM captures:
 
-The [Dataset profile][dataset-profile] specifies how to document datasets,
-including but not limited to the usages in AI/ML systems:
+[![AI package zoom in](./img/ai-example-02-zoomin.png)](./img/ai-example-02-zoomin.png)
 
-- Data sources and provenance
-- Data collection and processing methods
-- Data quality and statistics
-- Licensing and usage restrictions
+See more examples in the [Examples](./examples.md) section.
 
 ---
-
-["Classification Cupboard"](https://betterimagesofai.org/images?artist=AntonGrabolle&title=ClassificationCupboard)
-illustration by [Anton Grabolle](https://www.instagram.com/miss.tonton/) /
-<https://betterimagesofai.org> / [Licenced by CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 [Back to Home](./index.md){ .md-button }
 
 [ai-profile]: https://spdx.github.io/spdx-spec/latest/model/AI/AI/
 [dataset-profile]: https://spdx.github.io/spdx-spec/latest/model/Dataset/Dataset/
+[spdx-spec]: https://spdx.org/specifications/
+[ai-ex-02]: https://github.com/spdx/spdx-examples/tree/master/ai/example02
